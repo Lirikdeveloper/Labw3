@@ -10,7 +10,7 @@ environment:
 install:
   - ps: Install-Product node $env:APPVEYOR_BUILD_WORKER_IMAGE_VERSION
   - set PATH=%PYTHON%;%PYTHON%\Scripts;%PATH%
-  - pip install -r C:\Study\Pythonprojects\testingapp\requirements.txt
+  - pip install -r C:StudyPythonprojectstestingapprequirements.txt
 
 build_script:
   - python setup.py build
