@@ -3,9 +3,9 @@ image: Visual Studio 2019
 
 environment:
   matrix:
-    - PYTHON: "C:\\Python 3.8.0\\python.exe"
-    - PYTHON: "C:\\Study\\Pythonprojects\\testingapp"
-    - PYTHON: "C:\\Study\\PyCharm\\bin\\pycharm64.exe"
+    - PYTHON: "C:\\Python 3.8.0\\python"
+    - PYTHON: "C:\\Study\\Pythonprojects\\testingapp\\Testapp"
+    - PYTHON: "C:\\Study\\PyCharm\\bin\\pycharm64"
 
 install:
   - ps: Install-Product node $env:APPVEYOR_BUILD_WORKER_IMAGE_VERSION
