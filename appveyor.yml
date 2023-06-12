@@ -3,7 +3,7 @@ configuration: Release
 before_build:
 - nuget restore
 build:
-verbocity: minimal
+verbosity: minimal
 publish_wap: true
 environment:
   matrix:
